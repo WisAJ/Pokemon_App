@@ -1,20 +1,14 @@
 import './App.css';
-import {remove, fruit } from './Helpers';
-import { food } from './Foods';
+import Pokecard from './Pokecard';
+import Pokegame  from './Pokegame';
 
 
 function App() {
 
 
-
-
   return (
     <div className="App">
-      Fruit Selection
-      <p>{fruit}</p>
-      <p>{remove(food, fruit)}</p>
-      <p>{food.length}</p>
-      <p>{food}</p>
+      <Pokegame/>
     </div>
 
   );
@@ -22,7 +16,3 @@ function App() {
 
 export default App;
 
-// console.log(fruit)
-// console.log(remove(food, fruit))
-// console.log(food.length)
-// console.log(food)
