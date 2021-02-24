@@ -14,8 +14,10 @@ const Pokegame  = () => {
         hand1.push(randPokemon);
     }
 
-    let exp1 = hand1.reduce((exp, lista) => exp + lista.base_experience, 0);
-    let exp2 = hand2.reduce((exp, lista) => exp + lista.base_experience, 0);
+    let exp1 = hand1.reduce((xx, yy) => xx + yy.base_experience, 0);
+    let exp2 = hand2.reduce((ep, lsta) => ep + lsta.base_experience, 0);
+    
+    // console.log(hand1.reduce((xx, yy) => xx + yy.id,0))
 
 
     return (
