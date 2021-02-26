@@ -7,6 +7,7 @@ const Pokecard = ({lista, exp, isWinner}) => {
  
     const pic = "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/"
     console.log(lista)
+    
 
     const listItems = lista.map((pockemon) => {
 
