@@ -5,17 +5,21 @@ import Button from "./Button";
 import BrokenClick from "./BrokenClick";
 import Rando from "./Rando";
 import Clicker from "./Clicker";
+import Bulbs from "./playGround";
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
+    
       <div className='App'>
-        <Game />
+
+        <Bulbs/>
+        {/* <Game />
         <Demo />
         <Button />
         <Rando maxNum={10} />
-        <Clicker />
+        <Clicker /> */}
       </div>
     );
   }
