@@ -1,0 +1,12 @@
+.Coin img {
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  width: 7em;
+  height: 5em;
+  padding-top: 0em;
+  text-align: center;
+  margin-right: 0em;
+  font-weight: bold;
+  font-size: 1.5em;
+}

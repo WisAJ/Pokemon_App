@@ -8,19 +8,19 @@ class Lottery extends Component {
     numBalls: 6,
     maxNum: 40
   };
-  constructor(props) {
-    super(props);
-    this.state = { nums: Array.from({ length: this.props.numBalls }) };
-    this.handleClick = this.handleClick.bind(this);
-  }
-  generate() {
+
+
+  state = { nums: Array.from({ length: this.props.numBalls }) };
+   
+  
+  generate = () => {
     this.setState(curState => ({
       nums: curState.nums.map(
         n => Math.floor(Math.random() * this.props.maxNum) + 1
       )
     }));
   }
-  handleClick() {
+  handleClick = () =>  {
     this.generate();
   }
   render() {
